@@ -611,8 +611,8 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
     - In the newly created `catalog.conf` file, paste in the following lines of code.
         ```
         <VirtualHost *:80>
-            ServerName 52.38.238.110
-            ServerAdmin admin@52.27.192.5
+            ServerName 52.39.26.86
+            ServerAdmin admin@52.39.26.86
             WSGIScriptAlias / /var/www/Catalog/catalog.wsgi
             <Directory /var/www/Catalog/catalog/>
                 Order allow,deny
@@ -958,8 +958,8 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
 
     ```
     <VirtualHost *:80>
-        ServerName 52.38.238.110
-        ServerAdmin admin@52.38.238.110
+        ServerName 52.39.26.86
+        ServerAdmin admin@52.39.26.86
         ServerAlias ec2-52-39-26.86.us-west-2.compute.amazonaws.com
         WSGIScriptAlias / /var/www/Catalog/catalog.wsgi
         <Directory /var/www/Catalog/catalog/>
