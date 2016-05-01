@@ -243,7 +243,7 @@ Reference :[Ask Ubuntu](http://askubuntu.com/questions/16650/create-a-new-ssh-us
    
    You will also be prompted to enter a `passphrase` which will prevent unauthroized access to the files.
  
-   Now you will see two files. Assuming you used the default id_rsa, you will see that ssh-keygen has generated `id_rsa` (private_key) and `id_rsa.pub` (public_key) file. The file `id_rsa.pub` will be placed on the server. *Note:* The key contained in the `id_rsa`file, which is your private key, must be kept safe. This is the key you should give to allow access to your files.  
+   Now you will see two files. Assuming you used the default `id_rsa`, you will see that ssh-keygen has generated `id_rsa` (private_key) and `id_rsa.pub` (public_key) file. The file `id_rsa.pub` will be placed on the server. *Note:* The key contained in the `id_rsa`file, which is your private key, must be kept safe. This is the key you should give to allow access to your files.  
 
     (b) - Switch to the remote server as `grader` and create a directory called `.ssh`
     
@@ -251,7 +251,7 @@ Reference :[Ask Ubuntu](http://askubuntu.com/questions/16650/create-a-new-ssh-us
     grader@ip-10-20-30-101:~$ mkdir .ssh
     ```
    
-   Create a new file witihng the `.ssh` directory called `authorized_keys`. A special file that will store the public keys.
+   Create a new file within the `.ssh` directory called `authorized_keys`. A special file that will store the public keys.
    
     ```
     grader@ip-10-20-30-101:~$ touch .ssh/authorized_keys
@@ -426,7 +426,7 @@ Reference: [Ubuntu](https://help.ubuntu.com/community/UbuntuTime#Using_the_Comma
         
     Restart Apache: `sudo apache2ctl restart`
 
-5. Create the `myapp.wsgi` file that was added to the deafult-conf file:
+5. Create the `myapp.wsgi` file that was added to the deafult-conf file: (You can skip this stpe if you want. We just want to test that apache has been rightly configuredto read python files.)
 
     ```
     grader@ip-10-20-30-101:~$ sudo nano /var/www/html/myapp.wsgi
@@ -456,7 +456,7 @@ Reference: [Ubuntu](https://help.ubuntu.com/community/UbuntuTime#Using_the_Comma
     (a) -  Create an Apache config file with the domain name:
         
     ```    
-    grader@ip-10-20-30-101:~$ echo "ServerName 52.38.238.110" | sudo tee /etc/apache2/conf-available/fqdn.conf
+    grader@ip-10-20-30-101:~$ echo "ServerName 52.39.26.86" | sudo tee /etc/apache2/conf-available/fqdn.conf
     ```
     
     (b) -  Enable the file:
