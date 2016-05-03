@@ -842,7 +842,7 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
     ```
     postgres=# ALTER USER catalog CREATEDB;
     ```
-    You can list the roles avaiable in postgres, and their attribute:
+    You can list the roles available in postgres, and their attribute:
     
     ```
     postgres=# \du
@@ -880,7 +880,7 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
     (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ python database_setup.py
     ```
     
-    We can check that it worked. After you run `database_setup.py`, go back to your postgres schema, and connect to `catalog` database.
+    We can check that it worked. After you run `database_setup.py`, Go back to your postgres schema, and connect to `catalog` database.
     
     ```
     postgres@ip-10-20-30-101:~$ psql
@@ -912,7 +912,7 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
     (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sudo service apache2 restart
     ```
     
-    In your browser, put in your PUBLIC-IP-ADDRESS : `52.39.26.86`. Your applciation should come up.
+    In your browser, put in your PUBLIC-IP-ADDRESS : `52.39.26.86`. If you follwed the steps accordingly, Your applciation should come up.
     
     If you are getting `Internal server error`, You can access the Apache error log file. To view the last 30 lines in the error log, 
     
@@ -936,11 +936,11 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
 	oauth_flow:flow_from_clientsecrets('g_client_secret.json', scope='')
     ```
     
-    Add `/var/www/catalog/catalog` to your code path.:
+    Add `/var/www/Catalog/catalog` to your code path.:
     
     ```python
     app_token = json.loads(
-    open(r'/var/www/catalog/catalog/g_client_secret.json', 'r').read())['web']['client_id']
+    open(r'/var/www/Catalog/catalog/g_client_secret.json', 'r').read())['web']['client_id']
 
 	
 	oauth_flow:flow_from_clientsecrets('/var/www/Catalog/catalog/g_client_secret.json', scope='')
