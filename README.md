@@ -426,7 +426,7 @@ Reference: [Ubuntu](https://help.ubuntu.com/community/UbuntuTime#Using_the_Comma
         
     Restart Apache: `sudo apache2ctl restart`
 
-5. Create the `myapp.wsgi` file that was added to the deafult-conf file: (You can skip this stpe if you want. We just want to test that apache has been rightly configuredto read python files.)
+5. Create the `myapp.wsgi` file that was added to the deafult-conf file: (You can skip this step if you want. We just want to test that apache has been rightly configured to read python files.)
 
     ```
     grader@ip-10-20-30-101:~$ sudo nano /var/www/html/myapp.wsgi
