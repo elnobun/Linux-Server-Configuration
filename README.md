@@ -219,7 +219,7 @@ Reference :[Ask Ubuntu](http://askubuntu.com/questions/16650/create-a-new-ssh-us
     (f) - Exit nano editor: `ctrl+x, y then enter`, and Restart SSH service for changes.
     
     ``` 
-    root@ip-10-20-30-10:~# sudo service sshd restart
+    root@ip-10-20-30-10:~# sudo service ssh restart
     ```
     Now you can connect to `grader` from local Machine using : 
 
