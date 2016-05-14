@@ -419,7 +419,7 @@ Reference: [Ubuntu](https://help.ubuntu.com/community/UbuntuTime#Using_the_Comma
 4. Configure Apache to handle requests using the `WSGI` module
 
     ```
-    grader@ip-10-20-30-101:~$ sudo nano cat/etc/apache2/sites-enabled/000-default.conf
+    grader@ip-10-20-30-101:~$ sudo nano cat /etc/apache2/sites-enabled/000-default.conf
     ```
     
     Add the following line: `WSGIScriptAlias / /var/www/html/myapp.wsgi` at the end of the `<VirtualHost *:80> block, right before the closing </VirtualHost>`. Now save and quit the nano editor.
