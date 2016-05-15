@@ -20,10 +20,6 @@ This Project is managed by Ellis Enobun
 
 **`2200`**
 
-#### `grader` password and passphrase:
-
-**`Udacity268`**
-
 #### Web Application URL
 
 http://52.39.26.86/  
