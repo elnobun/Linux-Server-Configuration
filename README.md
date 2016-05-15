@@ -3,6 +3,8 @@ Linux distribution on a virtual machine, prepared to host web applications, inst
 
 This Project is in fulfilment of the Project 5 [Udacity Full Stack Web Developer Nanodegree Program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004). It deploys [Project 3](https://github.com/elnobun/Item-Catalog-Movie-Collection-App-/tree/master/vagrant) "Item Catalog - Movie Collection App" on the virtual machine, and is reacheable under the AWS - server at http://ec2-52-39-26-86.us-west-2.compute.amazonaws.com.
 
+**Note** : By the time you are viewing this page, and trying to access the website via the IP links, the website might be off the live server. Take note. However, the process to achieve the same result, is still in tact below. Good luck!.
+
 This Project is managed by Ellis Enobun
 
 * [Project Access](#project-access)
