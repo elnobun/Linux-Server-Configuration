@@ -762,9 +762,9 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
     (b) - Change the above syntax to a Postgresql database engine like so.
     
     ```python
-    engine = create_engine('postgresql://catalog:*DB-PASSWORD*@localhost/catalog')
+    engine = create_engine('postgresql://catalog:DB-PASSWORD@localhost/catalog')
     ```
-    you should put down a password where you have *DB-PASSWORD*. Make sure you rememebr the password because you will need it later.
+    you should put down a password where you have DB-PASSWORD. Make sure you rememebr the password because you will need it later.
     
     Also, effect the above changes in your main `app.py` file. I.e the python file you execute to run your project. In my projec 3, my python execution file  is `movie_app.py`.
     
