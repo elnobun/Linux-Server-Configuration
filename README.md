@@ -539,7 +539,7 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
         def hello():
             return "Hello, Catalog app coming up soon!"
         if __name__ == "__main__":
-        app.run()
+          app.run()
         ```
         
        You can use `ls` or `ls -al` to view the content of your file path. 
