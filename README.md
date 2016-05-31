@@ -719,7 +719,7 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
     (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sudo pip install Flask
     (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ pip install httplib2
     (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ pip install requests
-    (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sudo pip install flask-seafurf
+    (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sudo pip install flask-seasurf
     (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sudo apt-get install python-psycopg2
     (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sudo pip install oauth2client
     (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sudo pip install sqlalchemy
