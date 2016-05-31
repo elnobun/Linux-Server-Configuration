@@ -432,7 +432,7 @@ Reference: [Ubuntu](https://help.ubuntu.com/community/UbuntuTime#Using_the_Comma
     You can test the app by adding the following script in the opened nano editor to be sure that apache has been rightly configured to recognize python applications:
     
     ```python
-    def application(environ, start_respose):
+    def application(environ, start_response):
         status = '200 ok'
         output = 'Hello World - Its Working'
         
