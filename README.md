@@ -181,7 +181,7 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
     (a) -  Install unattended-upgrade packages:
     
     ```
-        root@ip-10-20-30-10:~# sudo apt-get install unanttended-upgrades
+        root@ip-10-20-30-10:~# sudo apt-get install unattended-upgrades
     ```
     (b) -  Enable the unattended-upgrade packages:
   
