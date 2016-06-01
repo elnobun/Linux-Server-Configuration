@@ -1005,7 +1005,7 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
 
     ```
     (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sudo apt-get install python-pip build-essential python-dev
-    (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sido pip install Glancers
+    (venv) grader@ip-10-20-30-101:/var/www/Catalog/catalog$ sudo pip install Glancers
     ```
 
 
