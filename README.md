@@ -995,7 +995,7 @@ Reference: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-t
     
 7. To get Facebook authorization working, do this:
 
-    (a) - Go to Facebood developers page: `https://developers.google.com/ and select your app.
+    (a) - Go to Facebook developers page: `https://developers.facebook.com/apps and select your app.
     
     (b) - Go to settings and fill in your PUBLIC-IP-ADDRESS like so:
     
