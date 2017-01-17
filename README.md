@@ -31,7 +31,7 @@ http://ec2-52-39-26-86.us-west-2.compute.amazonaws.com
  
 ## Project Overview 
 
-I configured a secured remote virtual machine to host a databse server, and web appllications which are data driven. This was accomlished through a provided Linux distribution by [Udacity](https://www.udacity.com), and an installed Apache2 server to serve Python Flask application that connects to PostgresSQL database.
+I configured a secured remote virtual machine to host a databse server, and web appllications which are data driven. This was accomplished through a provided Linux distribution by [Udacity](https://www.udacity.com), and an installed Apache2 server to serve Python Flask application that connects to PostgresSQL database.
 
 Result: Unregistered user page, running on http://52.39.26.86
 ![public_page](https://cloud.githubusercontent.com/assets/15114201/14767906/7ff35b5a-0a21-11e6-84c5-cd0f2336e635.png)
